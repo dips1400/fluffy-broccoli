@@ -29,7 +29,7 @@ export default function ChallanDetails() {
     );
   }
 
-  const penaltyType = penaltyTypes.find((p) => p.id === challan.penaltyTypeId);
+  const penaltyType : any = penaltyTypes.find((p) => p.id === challan.penaltyTypeId);
   const IconComponent = penaltyType ? (Icons as any)[penaltyType.icon] : null;
 
   return (
@@ -260,3 +260,5 @@ export default function ChallanDetails() {
     </div>
   );
 }
+
+

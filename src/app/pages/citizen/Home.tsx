@@ -109,7 +109,7 @@ export default function CitizenHome() {
 
           <div className="space-y-4">
             {recentChallans.map((challan) => {
-              const penaltyType = penaltyTypes.find(p => p.id === challan.penaltyTypeId);
+              const penaltyType : any = penaltyTypes.find(p => p.id === challan.penaltyTypeId);
               const IconComponent = penaltyType ? (Icons as any)[penaltyType.icon] : null;
 
               return (
