@@ -778,13 +778,6 @@ export default function DisputeResolution() {
               Review and resolve citizen appeals against issued challans
             </p>
           </div>
-          <button
-            onClick={() => window.location.reload()}
-            className="inline-flex items-center gap-2 border border-gray-200 text-gray-600 text-sm px-4 py-2 rounded-xl hover:bg-white transition-colors"
-          >
-            <RefreshCw className="w-3.5 h-3.5" />
-            Refresh
-          </button>
         </div>
 
         {/* Stats */}
